@@ -1,8 +1,9 @@
-# Laravel 8 提供用於標準化資料格式的類別集合
+# Laravel 10 提供用於標準化資料格式的類別集合
 
 引入 michael-rubel 的 laravel-formatters 套件來擴增提供用於標準化資料格式的類別集合，套件使用服務容器來擴展和覆寫格式化類別。
 
 ## 使用方式
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -26,5 +27,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Y7qK2fU.png)
+![](https://i.imgur.com/JRvNQK5.png)
 > 標準化建立時間和更新時間格式
